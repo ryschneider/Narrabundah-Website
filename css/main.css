@@ -16,25 +16,29 @@ body {
 
 
 .sidebar {
-	flex-basis: 200px;
+	flex-basis: 240px;
 	flex-grow: 0;
+	flex-shrink: 100px;
+	border-right: 1px solid black;
 }
 .sidebar ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0;
-	border-right: 1px solid black;
+}
+.sidebar ul li {
+	padding: 16px;
+	display: block;
+}
+.sidebar ul li:hover {
+	background-color: lightgoldenrodyellow;
 }
 .sidebar ul li a {
 	display: block;
 	color: black;
 	text-decoration: none;
-	padding: 8px;
-	width: 183px;
+	width: 100%;
 	text-align: center;
-}
-.sidebar ul li a:hover {
-	background-color: bisque;
 }
 .sidebar img {
 	width: 100%;
