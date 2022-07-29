@@ -48,8 +48,19 @@ body {
 
 
 .main-content {
-	margin: 50px;
+	height: 100%;
+
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
 }
 .main-content h1 {
 	text-align: center;
+}
+
+
+.main-image {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }

@@ -1,3 +1,19 @@
 .link-canteen {
 	font-weight: bold;
 }
+
+.menu {
+	list-style-type: none;
+}
+.menu li {
+	float: left;
+	display: block;
+	padding: 20px;
+}
+.menu .menu-item {
+	padding: 5px;
+	font-weight: bold;
+}
+.menu .meni-price {
+	padding: 5px;
+}
